@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PC Express - A sua loja de equipamentos de informática e peças para PC. Monte seu computador gamer com os melhores preços.">
+    <title>PC Express - Sua Loja de Informática</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icons: Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">PC Express</a>
+            <nav class="main-nav" data-nav>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="pages/sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="pages/produtos.html" class="nav-link">Produtos </a></li>
+                    <li><a href="pages/contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menu" data-menu-toggle>
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO HERO -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Os Melhores PCs e Componentes em um só lugar</h1>
+                    <p class="hero-subtitle">Encontre as melhores máquinas e peças para seus jogos, trabalho e estudos.</p>
+                    <a href="#categorias" class="btn btn-primary">Ver Categorias</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/pc-gamer.png" alt="Imagem de um computador gamer moderno com luzes RGB">
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CATEGORIAS -->
+        <section id="categorias" class="category-grid-section">
+            <div class="container">
+                <h2 class="section-title">Nossas Categorias</h2>
+                <div class="category-grid">
+                    <a href="pages/placas-mae.html" class="category-card">
+                        <img src="images/placa-mãe.png" alt="Imagem de uma placa-mãe de computador." >
+                        <div class="category-info">
+                            <h3>Placas-Mãe</h3>
+                            <p>A base para o seu novo PC.</p>
+                        </div>
+                    </a>
+                    <a href="pages/gabinetes.html" class="category-card">
+                        <img src="images/gabinete.png" alt="Imagem de um gabinete de computador.">
+                        <div class="category-info">
+                            <h3>Gabinetes</h3>
+                            <p>Estilo e refrigeração para seus componentes.</p>
+                        </div>
+                    </a>
+                    <a href="pages/monitores.html" class="category-card">
+                        <img src="images/monitor.png" alt="Imagem de um monitor de alta resolução.">
+                        <div class="category-info">
+                            <h3>Monitores</h3>
+                            <p>Imagens nítidas para sua gameplay.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3 class="logo">PC Express</h3>
+                    <p>Sua loja de confiança para peças e computadores. Qualidade e performance que você pode sentir.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p><i class="ph ph-phone"></i> (11) 91234-5678</p>
+                    <p><i class="ph ph-map-pin"></i> Av. Paulista, 1000, São Paulo - SP</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Siga-nos</h4>
+                    <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="ph ph-twitter-logo"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PC Express. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
